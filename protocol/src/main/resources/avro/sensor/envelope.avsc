@@ -1,0 +1,11 @@
+{
+    "namespace": "com.github.tobyjamesclements.kaliper.protocol.sensor",
+    "type": "record",
+    "name": "Envelope",
+    "fields": [
+        {"name": "sensor", "type": "string"},
+        {"name": "sendTime", "type": {"type": "long", "logicalType": "timestamp-micros"}},
+        {"name": "dataVersion", "type": "string"},
+        {"name": "data", "type": "com.github.tobyjamesclements.kaliper.protocol.sensor.Data"}
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "namespace": "com.github.tobyjamesclements.kaliper.protocol.profile.annotation",
+    "type": "record",
+    "name": "AnnotationEvent",
+    "fields": [
+        {
+            "name": "envelope",
+            "type": "com.github.tobyjamesclements.kaliper.protocol.sensor.Envelope"
+        }
+    ]
+}

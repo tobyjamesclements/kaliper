@@ -1,0 +1,8 @@
+{
+    "namespace": "com.github.tobyjamesclements.kaliper.protocol.sensor",
+    "type": "record",
+    "name": "Data",
+    "fields": [
+        {"name": "data", "type": "string"}
+    ]
+}
